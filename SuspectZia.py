@@ -17,7 +17,7 @@ warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 # Load Google Drive API credentials
 SCOPES = ['https://www.googleapis.com/auth/drive']
-SERVICE_ACCOUNT_FILE = r'C:\Users\Ajaya\Downloads\vertical-sunset-440402-h4-f3e25263f3a1.json'
+SERVICE_ACCOUNT_FILE = r"C:\Users\Ajaya\Downloads\navyagrand-8eb57a8e1d50.json"
 
 # Check if the service account file exists
 if not os.path.exists(SERVICE_ACCOUNT_FILE):
