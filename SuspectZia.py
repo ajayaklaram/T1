@@ -90,7 +90,7 @@ def download_file(file_id, file_name):
     except Exception as e:
         print(f"Error downloading file ID: {file_id} - {e}")
         return None
-
+""
 def verify_and_fix_image(image_path):
     """Verifies and cleans up an image file."""
     try:
